@@ -10,6 +10,10 @@ Para obtener la información sobre las series, se utilizará un servicio externo
 
 La documentación está en: http://docs.themoviedb.apiary.io/
 
+La API key a usar es: 
+
+> 4883683d8402af2dfc264b8d1fc64316
+
 En principio, se pide **implementar** las siguientes funcionalidades:
 
 - Obtener una lista de series populares
