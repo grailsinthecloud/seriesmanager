@@ -18,7 +18,7 @@ class TmdbService {
 
     	query.'api_key' = API_KEY
 
-		def http = new HTTPBuilder('https://api.themoviedb.org/3/')
+		def http = new HTTPBuilder(TMDB_API)
 
         http.request(Method.GET, ContentType.TEXT) {
             uri.path = path
